@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Hello *</pattern>
+	    <template>Welcome to XYZ Pizza. How may I help you?</template>
+    </category>
+    <category>
+	    <pattern>Hye *</pattern>
+	    <template>Welcome to XYZ Pizza. How may I help you?</template>
+    </category>
+    <category>
+        <pattern>Hello</pattern>
+	    <template>Welcome to XYZ Pizza. How may I help you?</template>
+    </category>
+</aiml>

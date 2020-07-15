@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Size Mode</pattern>
+	    <template>
+	        <button>
+	            <text>Pan Size</text>
+	            <postback>Appetizers Mode</postback>
+            </button>
+            <button>
+                <text>Medium Size</text>
+                <postback>Appetizers Mode</postback>
+            </button>
+            <button>
+                <text>Large Size</text>
+                <postback>Appetizers Mode</postback>
+            </button>
+	    </template>
+    </category>
+    <category>
+        <pattern>Appetizers Mode</pattern>
+        <template>
+            <button>
+                <text>BBq Ranch Wings</text>
+                <postback>Proceed Mode</postback>
+            </button>
+            <button>
+                <text>Garlic Mayo Wings</text>
+                <postback>Proceed Mode</postback>
+            </button>
+            <button>
+                <text>Jalapeno Ranch Wings</text>
+                <postback>Proceed Mode</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

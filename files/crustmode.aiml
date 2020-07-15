@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Crust Mode</pattern>
+	    <template>
+	        <button>
+	            <text>Stuffed Crust</text>
+	            <postback>Size Mode</postback>
+            </button>
+            <button>
+                <text>Thin Curst</text>
+                <postback>Size Mode</postback>
+            </button>
+	    </template>
+    </category>
+</aiml>

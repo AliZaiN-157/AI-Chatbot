@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+    <category>
+	    <pattern>I want *</pattern>
+	    <template>Type !menu </template>
+    </category>
+    <category>
+        
+        <pattern>_ Charges *</pattern>
+        <template>Rs200 For Delivery Charges. You will Get Free Delivery By ordering More than 2500 </template>
+    </category>
+    <category>
+        <pattern>!menu</pattern>
+        <template>
+            <button>
+                <text>Mama Mia Classic</text>
+                <postback>Crust Mode<set pizza="type"><text/>!</set></postback>
+            </button>
+            <button>
+                <text>God Spell Beef Load</text>
+                <postback>Crust Mode</postback>
+            </button>
+            <button>
+                <text>Phantom</text>
+                <postback>Crust Mode</postback>
+            </button>
+            <button>
+                <text>Tarzan Tikka</text>
+                <postback>Crust Mode</postback>
+            </button>
+            <button>
+                <text>Wicked Blend</text>
+                <postback>Crust Mode</postback>
+            </button>
+            <button>
+                <text>All Cheese</text>
+                <postback>Crust Mode</postback>
+            </button>
+            <button>
+                <text>Mughlai Beast</text>
+                <postback>Crust Mode</postback>
+            </button>
+        </template>
+    </category>
+    
+    
+    
+</aiml>

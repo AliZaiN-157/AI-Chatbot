@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Proceed Mode</pattern>
+	    <template>Do you want to proceed?
+	        <button>
+	            <text>Yes</text>
+	            <postback>Confirmation</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>!menu</postback>
+            </button>
+	    </template>
+    </category>
+    <category>
+        <pattern>Confirmation</pattern>
+        <template>Thanks for Ordering! Your Order will Ready in 40 mins.</template>
+    </category>
+</aiml>
